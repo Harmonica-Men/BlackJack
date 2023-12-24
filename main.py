@@ -11,6 +11,8 @@ def deal_the_cards():
 user_cards = []
 computer_cards = []
 
+# deal the cards a put them in there lists
 for  _var in range(2):
-   new_player_card = deal_the_cards()
-   user_cards.append(new_player_card)
+    user_cards.append(deal_the_cards())
+    computer_cards.append(deal_the_cards())
+
