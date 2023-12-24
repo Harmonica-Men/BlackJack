@@ -10,3 +10,7 @@ def deal_the_cards():
 
 user_cards = []
 computer_cards = []
+
+for  _var in range(2):
+   new_player_card = deal_the_cards()
+   user_cards.append(new_player_card)
