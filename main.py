@@ -8,15 +8,6 @@ def deal_the_cards():
     return card
 
 
-user_cards = []
-computer_cards = []
-
-# deal the cards a put them in their lists
-for _var in range(2):  # run two loops
-    user_cards.append(deal_the_cards())
-    computer_cards.append(deal_the_cards())
-
-
 #  calculate the total sum of the cards of that list
 def calculate_the_score(cards_deck):
     if sum(cards_deck) == 21 and len(cards_deck) == 2:
@@ -26,3 +17,21 @@ def calculate_the_score(cards_deck):
         cards_deck.remove(11)  # remove ace with and replace 1
         cards_deck.append(1)
     return sum(cards_deck)
+
+
+# create empty lists
+user_cards = []
+computer_cards = []
+
+# deal the cards a put them in their lists
+for _var in range(2):  # run two loops
+    user_cards.append(deal_the_cards())
+    computer_cards.append(deal_the_cards())
+
+player_score = calculate_the_score(user_cards)
+computer_score = calculate_the_score(computer_cards)
+print(f" player: {user_cards}, current score {player_score}")
+print(f" computer top card of the deck: {computer_cards[0]}")
+
+if player_score == 0 or computer_score == 0 or player_score > 21:
+    over_and_out = True  # End the game
