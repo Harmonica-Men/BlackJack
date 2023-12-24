@@ -23,6 +23,6 @@ def calculate_the_score(cards_deck):
         return 0  # Computer won ; because it has a score of BJ
     # Check for ace an 11 and if score is 21 then remove the 11 and replace it whit 1
     if 11 in cards_deck and sum(cards_deck) > 21:
-        cards_deck.remove(11)
+        cards_deck.remove(11)  # remove ace with and replace 1
         cards_deck.append(1)
     return sum(cards_deck)
