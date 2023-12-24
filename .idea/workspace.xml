@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc1edc04-4b0c-4ca5-8e62-3b844ec44585" name="Changes" comment="">
+    <list default="true" id="fc1edc04-4b0c-4ca5-8e62-3b844ec44585" name="Changes" comment="yes or no deal again ?">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +19,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2a0CYGf6sRfayRGKjZfGV2bI0fF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,6 +30,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -50,6 +51,133 @@
       <option name="presentableId" value="Default" />
       <updated>1703446154421</updated>
     </task>
+    <task id="LOCAL-00001" summary="card lists for black jack">
+      <option name="closed" value="true" />
+      <created>1703447446751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447446751</updated>
+    </task>
+    <task id="LOCAL-00002" summary="card lists for black jack">
+      <option name="closed" value="true" />
+      <created>1703447686780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447686780</updated>
+    </task>
+    <task id="LOCAL-00003" summary="card lists for black jack">
+      <option name="closed" value="true" />
+      <created>1703447693922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447693922</updated>
+    </task>
+    <task id="LOCAL-00004" summary="card lists for black jack">
+      <option name="closed" value="true" />
+      <created>1703447726183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447726183</updated>
+    </task>
+    <task id="LOCAL-00005" summary="card lists for black jack">
+      <option name="closed" value="true" />
+      <created>1703447899269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447899269</updated>
+    </task>
+    <task id="LOCAL-00006" summary="card lists for black jack">
+      <option name="closed" value="true" />
+      <created>1703447964129</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447964129</updated>
+    </task>
+    <task id="LOCAL-00007" summary="card lists for black jack">
+      <option name="closed" value="true" />
+      <created>1703448268261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703448268261</updated>
+    </task>
+    <task id="LOCAL-00008" summary="card lists for black jack">
+      <option name="closed" value="true" />
+      <created>1703448312096</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703448312096</updated>
+    </task>
+    <task id="LOCAL-00009" summary="deal the cards and put them in associate lists">
+      <option name="closed" value="true" />
+      <created>1703448582587</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703448582587</updated>
+    </task>
+    <task id="LOCAL-00010" summary="function calculate score">
+      <option name="closed" value="true" />
+      <created>1703450210988</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703450210988</updated>
+    </task>
+    <task id="LOCAL-00011" summary="function calculate score">
+      <option name="closed" value="true" />
+      <created>1703450293781</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703450293781</updated>
+    </task>
+    <task id="LOCAL-00012" summary="function calculate score + comments">
+      <option name="closed" value="true" />
+      <created>1703450343646</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703450343646</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test score and lists inputs">
+      <option name="closed" value="true" />
+      <created>1703451224260</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703451224260</updated>
+    </task>
+    <task id="LOCAL-00014" summary="yes or no deal again ?">
+      <option name="closed" value="true" />
+      <created>1703451687427</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703451687427</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="function deal the card of cards" />
+    <MESSAGE value="comment deal_the_cards" />
+    <MESSAGE value="for loop dealer card" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="card lists for black jack" />
+    <MESSAGE value="deal the cards and put them in associate lists" />
+    <MESSAGE value="function calculate comment" />
+    <MESSAGE value="function calculate score" />
+    <MESSAGE value="function calculate score + comments" />
+    <MESSAGE value="test score and lists inputs" />
+    <MESSAGE value="yes or no deal again ?" />
+    <option name="LAST_COMMIT_MESSAGE" value="yes or no deal again ?" />
   </component>
 </project>

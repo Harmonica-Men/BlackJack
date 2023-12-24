@@ -42,3 +42,6 @@ else:
     else:
         over_and_out = True
 
+while computer_score != 0 and computer_score < 17:
+    computer_cards.append(deal_the_cards())
+    computer_score = calculate_the_score(computer_cards)
