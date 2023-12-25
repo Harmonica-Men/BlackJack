@@ -21,9 +21,9 @@ def calculate_the_score(cards):
 
 #  different stages of game play
 def compare_player_vs_computer(userscore, computerscore):
-    #  Bug fix. If you and the computer are both over, you lose.
-  #  if userscore > 21 and computerscore > 21:
-  #      return "You went over. You lose"
+  #   If you and the computer are both over, you lose.
+    if userscore > 21 and computerscore > 21:
+        return "You went over. You lose"
 
     if userscore == computerscore:
         return "Draw a card"

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc1edc04-4b0c-4ca5-8e62-3b844ec44585" name="Changes" comment="new function compare player vs computer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="fc1edc04-4b0c-4ca5-8e62-3b844ec44585" name="Changes" comment="fix bug player score: compare_player_vs_computer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +28,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -209,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703479865625</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix bug player score: compare_player_vs_computer">
+      <option name="closed" value="true" />
+      <created>1703481526144</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703481526144</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,7 +231,8 @@
     <MESSAGE value="yes or no deal again ?" />
     <MESSAGE value="while loop game play" />
     <MESSAGE value="new function compare player vs computer" />
-    <option name="LAST_COMMIT_MESSAGE" value="new function compare player vs computer" />
+    <MESSAGE value="fix bug player score: compare_player_vs_computer" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug player score: compare_player_vs_computer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
