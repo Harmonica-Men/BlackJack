@@ -1,5 +1,5 @@
 import random
-
+from ascii_art_blackjack import logo
 
 def deal_the_cards():
     """Take a random card from the deck of cards"""  # doc string
@@ -11,7 +11,6 @@ def deal_the_cards():
 #  calculate the total sum of the cards of that list
 def calculate_the_score(cards):
     """Take a list of cards and return the score calculated from the cards"""
-
     if sum(cards) == 21 and len(cards) == 2:
         return 0  # Computer won ; because it has a score of BJ
     # Check for ace an 11 and if score is 21 then remove the 11 and replace it whit 1
@@ -19,8 +18,6 @@ def calculate_the_score(cards):
         cards.remove(11)  # remove ace with and replace 1
         cards.append(1)
     return sum(cards)
-
-
 #  different stages of game play
 def compare_player_vs_computer(score_of_user, score_of_computer):
     #   If you and the computer are both over, you lose.
@@ -45,6 +42,7 @@ def compare_player_vs_computer(score_of_user, score_of_computer):
 
 # black jack game begins here
 def play_blackjack():
+    print(logo)
     # create empty lists
     user_cards = []
     computer_cards = []
