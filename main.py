@@ -10,6 +10,8 @@ def deal_the_cards():
 
 #  calculate the total sum of the cards of that list
 def calculate_the_score(cards):
+    """Take a list of cards and return the score calculated from the cards"""
+
     if sum(cards) == 21 and len(cards) == 2:
         return 0  # Computer won ; because it has a score of BJ
     # Check for ace an 11 and if score is 21 then remove the 11 and replace it whit 1
@@ -20,31 +22,33 @@ def calculate_the_score(cards):
 
 
 #  different stages of game play
-def compare_player_vs_computer(userscore, computerscore):
-  #   If you and the computer are both over, you lose.
-    if userscore > 21 and computerscore > 21:
+def compare_player_vs_computer(score_of_user, score_of_computer):
+    #   If you and the computer are both over, you lose.
+    if score_of_user > 21 and score_of_computer > 21:
         return "You went over. You lose"
 
-    if userscore == computerscore:
+    if score_of_user == score_of_computer:
         return "Draw a card"
-    elif computerscore == 0:
+    elif score_of_computer == 0:
         return "Lose, computer has the Blackjack"
-    elif userscore == 0:
+    elif score_of_user == 0:
         return "Nice you have a Blackjack"
-    elif userscore >= 21:
+    elif score_of_user >= 21:
         return "Sorry, you can't go higher than BlackJack"
-    elif computerscore >= 21:
+    elif score_of_computer >= 21:
         return "You win, the computer bluffed"
-    elif userscore >= computerscore:
+    elif score_of_user >= score_of_computer:
         return "Congratulations, you won"
     else:
         return "Sorry, You lost the game"
+
 
 # black jack game begins here
 def play_blackjack():
     # create empty lists
     user_cards = []
     computer_cards = []
+    over_and_out = False
 
     # deal the cards a put them in their lists
     for _var in range(2):  # run two loops
@@ -59,8 +63,8 @@ def play_blackjack():
     if player_score == 0 or computer_score == 0 or player_score > 21:
         over_and_out = True  # End the game
     else:
-        deal_again = input("Another card 'Y' or 'N' to pass")
-        if deal_again == "Yes":
+        deal_again = input("Another card 'Y' or 'N' to pass : ")
+        if deal_again == "Y":
             user_cards.append(deal_the_cards())
         else:
             over_and_out = True
@@ -74,7 +78,8 @@ def play_blackjack():
     print(f" computer last card; {computer_cards}, final score : {computer_score}")
     print(compare_player_vs_computer(player_score, computer_score))
 
-while input("Wanna play Black Jack? type 'y' or 'n' : ") == 'y':
+
+while input("Wanna play Black Jack? type 'Y' or 'N' : ") == 'Y':
     play_blackjack()
 
 print("TY for playing Black Jack, See you next time")

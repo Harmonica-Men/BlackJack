@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc1edc04-4b0c-4ca5-8e62-3b844ec44585" name="Changes" comment="input play game again line 76">
+    <list default="true" id="fc1edc04-4b0c-4ca5-8e62-3b844ec44585" name="Changes" comment="fix bug line 77 play_blackjack()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -249,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703499990358</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix bug line 77 play_blackjack()">
+      <option name="closed" value="true" />
+      <created>1703500738272</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1703500738272</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -270,6 +278,7 @@
     <MESSAGE value="what if both 21 ?" />
     <MESSAGE value="total score print statement" />
     <MESSAGE value="input play game again line 76" />
-    <option name="LAST_COMMIT_MESSAGE" value="input play game again line 76" />
+    <MESSAGE value="fix bug line 77 play_blackjack()" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug line 77 play_blackjack()" />
   </component>
 </project>
