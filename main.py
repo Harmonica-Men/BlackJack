@@ -68,4 +68,7 @@ while computer_score != 0 and computer_score < 17:
     computer_cards.append(deal_the_cards())
     computer_score = calculate_the_score(computer_cards)
 
+# print the score of player and computer
+print(f" last card: {user_cards}, final score: {player_score}")
+print(f" computer last card; {computer_cards}, final score : {computer_score}")
 print(compare_player_vs_computer(player_score, computer_score))
