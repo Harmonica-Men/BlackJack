@@ -72,3 +72,10 @@ while computer_score != 0 and computer_score < 17:
 print(f" last card: {user_cards}, final score: {player_score}")
 print(f" computer last card; {computer_cards}, final score : {computer_score}")
 print(compare_player_vs_computer(player_score, computer_score))
+
+play = input("Wanna play Black Jack? type 'y' or 'n' : ")
+
+if play == "y":
+    #  play_blackjack #
+else:
+    print("TY for playing Black Jack, See next time")
