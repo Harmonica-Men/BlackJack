@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc1edc04-4b0c-4ca5-8e62-3b844ec44585" name="Changes" comment="yes or no deal again ?">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="fc1edc04-4b0c-4ca5-8e62-3b844ec44585" name="Changes" comment="while loop game play">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703451687427</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="while loop game play">
+      <option name="closed" value="true" />
+      <created>1703452076060</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703452076060</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +186,7 @@
     <MESSAGE value="function calculate score + comments" />
     <MESSAGE value="test score and lists inputs" />
     <MESSAGE value="yes or no deal again ?" />
-    <option name="LAST_COMMIT_MESSAGE" value="yes or no deal again ?" />
+    <MESSAGE value="while loop game play" />
+    <option name="LAST_COMMIT_MESSAGE" value="while loop game play" />
   </component>
 </project>

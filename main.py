@@ -18,6 +18,26 @@ def calculate_the_score(cards_deck):
         cards_deck.append(1)
     return sum(cards_deck)
 
+def compare_player_vs_computer(user_score, computer_score):
+  #Bug fix. If you and the computer are both over, you lose.
+  if user_score > 21 and computer_score > 21:
+    return "You went over. You lose"
+
+  if user_score == computer_score:
+    return "Draw a card"
+  elif computer_score == 0:
+    return "Lose, computer has the Blackjack"
+  elif user_score == 0:
+    return "Nice you have a Blackjack"
+  elif user_score > 21:
+    return "Sorry, you can't go higher than BlackJack"
+  elif computer_score > 21:
+    return "You win, the computer bluffed"
+  elif user_score > computer_score:
+    return "Congratulations, you won"
+  else:
+    return "Sorry, You lost the game"
+
 
 # create empty lists
 user_cards = []
@@ -45,3 +65,4 @@ else:
 while computer_score != 0 and computer_score < 17:
     computer_cards.append(deal_the_cards())
     computer_score = calculate_the_score(computer_cards)
+
