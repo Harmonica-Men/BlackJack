@@ -18,6 +18,7 @@ def calculate_the_score(cards):
         cards.remove(11)  # remove ace with and replace 1
         cards.append(1)
     return sum(cards)
+
 #  different stages of game play
 def compare_player_vs_computer(score_of_user, score_of_computer):
     #   If you and the computer are both over, you lose.
@@ -39,9 +40,9 @@ def compare_player_vs_computer(score_of_user, score_of_computer):
     else:
         return "Sorry, You lost the game"
 
-
 # black jack game begins here
 def play_blackjack():
+    global computer_score
     print(logo)
     # create empty lists
     user_cards = []
@@ -72,20 +73,10 @@ def play_blackjack():
         computer_cards.append(deal_the_cards())
         computer_score = calculate_the_score(computer_cards)
 
-    # print the score of player and computer
-    print(f"   Your cards: {user_cards}, current score: {player_score}")
-    print(f"   Computer's first card: {computer_cards[0]}")
+    print(f"   Your final hand: {user_cards}, final score: {player_score}")
+    print(f"   Computer's final hand: {computer_cards}, final score: {computer_score}")
+    print(compare_player_vs_computer(player_score, computer_score))
 
-    if player_score == 0 or computer_score == 0 or player_score > 21:
-      over_and_out = True
-    else:
-        user_should_deal = input("Type 'y' to get another card, type 'n' to pass: ")
-        if user_should_deal == "y":
-            user_cards.append(deal_again())
-        else:
-            over_and_out = True
-
-while input("Wanna play Black Jack? type 'Y' or 'N' : ") == 'Y':
-    play_blackjack()
-
-print("TY for playing Black Jack, See you next time")
+while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
+  # clear()
+  play_blackjack()
