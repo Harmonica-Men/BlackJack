@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc1edc04-4b0c-4ca5-8e62-3b844ec44585" name="Changes" comment="check game play">
-      <change afterPath="$PROJECT_DIR$/ascii_art_blackjack.py" afterDir="false" />
+    <list default="true" id="fc1edc04-4b0c-4ca5-8e62-3b844ec44585" name="Changes" comment="ascii art logo BJ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -19,6 +18,20 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Harmonica-Men"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1787431a-d4fd-4145-9349-d2c06718b32e" />
+        <option name="url" value="https://github.com/Harmonica-Men/BlackJack.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="ProjectColorInfo">{
@@ -266,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703501595055</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="ascii art logo BJ">
+      <option name="closed" value="true" />
+      <created>1703502972820</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1703502972820</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +310,7 @@
     <MESSAGE value="input play game again line 76" />
     <MESSAGE value="fix bug line 77 play_blackjack()" />
     <MESSAGE value="check game play" />
-    <option name="LAST_COMMIT_MESSAGE" value="check game play" />
+    <MESSAGE value="ascii art logo BJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="ascii art logo BJ" />
   </component>
 </project>

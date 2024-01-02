@@ -22,7 +22,7 @@ def calculate_the_score(cards):
 def compare_player_vs_computer(score_of_user, score_of_computer):
     #   If you and the computer are both over, you lose.
     if score_of_user > 21 and score_of_computer > 21:
-        return "You went over. You lose"
+        return "You went over 21, You lose"
 
     if score_of_user == score_of_computer:
         return "Draw a card"
@@ -35,7 +35,7 @@ def compare_player_vs_computer(score_of_user, score_of_computer):
     elif score_of_computer >= 21:
         return "You win, the computer bluffed"
     elif score_of_user >= score_of_computer:
-        return "Congratulations, you won"
+        return "Congratulations, you win"
     else:
         return "Sorry, You lost the game"
 
@@ -53,27 +53,34 @@ def play_blackjack():
         user_cards.append(deal_the_cards())
         computer_cards.append(deal_the_cards())
 
-    player_score = calculate_the_score(user_cards)
-    computer_score = calculate_the_score(computer_cards)
-    print(f" player: {user_cards}, current score {player_score}")
-    print(f" computer top card of the deck: {computer_cards[0]}")
+    while not over_and_out:
+        user_score = calculate_the_score(user_cards)
+        computer_score = calculate_the_score(computer_cards)
+        print(f"   Your cards: {user_cards}, current score: {user_score}")
+        print(f"   Computer's first card: {computer_cards[0]}")
 
-    if player_score == 0 or computer_score == 0 or player_score > 21:
-        over_and_out = True  # End the game
-    else:
-        deal_again = input("Another card 'Y' or 'N' to pass : ")
-        if deal_again == "Y":
-            user_cards.append(deal_the_cards())
-        else:
-            over_and_out = True
+
+    #player_score = calculate_the_score(user_cards)
+    #computer_score = calculate_the_score(computer_cards)
+    #print(f"    player: {user_cards}, current score {player_score}")
+    # print(f"    computer top card of the deck: {computer_cards[0]}")
+
+   # if player_score == 0 or computer_score == 0 or player_score > 21:
+   #     over_and_out = True  # End the game
+   # else:
+   #     deal_again = input("Another card 'Y' or 'N' to pass : ")
+   #     if deal_again == "Y":
+   #         user_cards.append(deal_the_cards())
+   #     else:
+   #         over_and_out = True
 
     while computer_score != 0 and computer_score < 17:
         computer_cards.append(deal_the_cards())
         computer_score = calculate_the_score(computer_cards)
 
     # print the score of player and computer
-    print(f" last card: {user_cards}, final score: {player_score}")
-    print(f" computer last card; {computer_cards}, final score : {computer_score}")
+    print(f"        Yast card: {user_cards}, final score: {player_score}")
+    print(f"        Computer first card: {computer_cards}, final score: {computer_score}")
     print(compare_player_vs_computer(player_score, computer_score))
 
 

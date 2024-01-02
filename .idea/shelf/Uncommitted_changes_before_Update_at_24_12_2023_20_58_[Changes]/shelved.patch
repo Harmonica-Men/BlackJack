@@ -1,0 +1,28 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import random\n\n\ndef deal_the_cards():\n   cards_deck = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]\n   card = random.choice(cards_deck)\n   return card\n\n\n\nuser_cards = []\ncomputer_cards = []
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision b321e44d70637f2d07512cbfa6483c439ab2dc23)
++++ b/main.py	(date 1703447899154)
+@@ -2,11 +2,11 @@
+ 
+ 
+ def deal_the_cards():
+-   cards_deck = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+-   card = random.choice(cards_deck)
+-   return card
++    """Take a random card from the deck of cards"""
++    cards_deck = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
++    card = random.choice(cards_deck)
++    return card
+ 
+ 
+-
+ user_cards = []
+-computer_cards = []
+\ No newline at end of file
++computer_cards = []
