@@ -90,7 +90,7 @@ def play_blackjack():
         else:
             over_and_out = True
 
-#while input("Wanna play Black Jack? type 'Y' or 'N' : ") == 'Y':
-#    play_blackjack()
+while input("Wanna play Black Jack? type 'Y' or 'N' : ") == 'Y':
+    play_blackjack()
 
 print("TY for playing Black Jack, See you next time")
