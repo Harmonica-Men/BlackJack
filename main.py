@@ -59,11 +59,6 @@ def play_blackjack():
         print(f"   Your cards: {user_cards}, current score: {player_score}")
         print(f"   Computer's first card: {computer_cards[0]}")
 
-    #player_score = calculate_the_score(user_cards)
-    #computer_score = calculate_the_score(computer_cards)
-    #print(f"    player: {user_cards}, current score {player_score}")
-    # print(f"    computer top card of the deck: {computer_cards[0]}")
-
         if player_score == 0 or computer_score == 0 or player_score > 21:
             over_and_out = True  # End the game
         else:
